@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Bootstrap</title>
+   <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+     crossorigin="anonymous"
+   />
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"
+   ></script>
+ </head>
+ <body>
+   <!--navbar-->
+   <nav class="navbar navbar-expand-lg bg-danger-subtle sticky-top">
+     <div class="container-fluid">
+        
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item">
+             <a class="nav-link" aria-current="page" href="#">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#Home">Gallery</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#Works">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#About">About</a>
+           </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+          
+           </button>
+         </form>
+       </div>
+     </div>
+   </nav>
+   <!--end navbar-->
+   <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+     <div class="carousel-indicators">
+       <button 
+       type="button" 
+       data-bs-target="#carouselExampleCaptions" 
+       data-bs-slide-to="0" class="active" 
+       aria-current="true" 
+       aria-label="Slide 1">
+     </button>
+       <button 
+       type="button" 
+       data-bs-target="#carouselExampleCaptions" 
+       data-bs-slide-to="1" 
+       aria-label="Slide 2">
+     </button>
+       <button 
+       type="button" 
+       data-bs-target="#carouselExampleCaptions" 
+       data-bs-slide-to="2" 
+       aria-label="Slide 3">
+    </button>
+    <button 
+    type="button" 
+    data-bs-target="#carouselExampleCaptions" 
+    data-bs-slide-to="3" 
+    aria-label="Slide 4">
+     </button>
+     <button 
+        type="button" 
+         data-bs-target="#carouselExampleCaptions" 
+         data-bs-slide-to="4" 
+        aria-label="Slide 5">
+   </button>
+
+     </div>
+     <div class="carousel-inner" style=" max-width: 100%; height: 1090px">
+       <div class="carousel-item active">
+         <img src="images/pag uusig.jpeg" class="d-block w-100" alt="usedimages">
+         <div class="carousel-caption d-none d-md-block">
+           <h5></h5>
+           <p></p>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <img src="images/anak datu.jpg" class="d-block w-100" alt="usedimages">
+         <div class="carousel-caption d-none d-md-block">
+           <h5></h5>
+           <p></p>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <img src="images/pag uusig.jpeg" class="d-block w-100" alt="usedimages">
+         <div class="carousel-caption d-none d-md-block">
+           <h5></h5>
+           <p></p>
+         </div>
+       </div>
+     </div>
+     <div class="carousel-item">
+        <img src="images/pag uusig copy.jpeg" class="d-block w-100" alt="usedimages">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <img src="images/Pingkian.jpeg" class="d-block w-100" alt="usedimages">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ </div>
+ <!-- end carousel -->
+
+ <!-- Gallery -->
+
+
+ <h2 id= "Gallery" class ="text-center pd-5 mt-5 mb-5" >Gallery</h2>
+    <!-- gallery toprow -->
+    <div class = "container-fluid">
+     <div class = "row">
+
+
+       <div class = "col-3 mb-2">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="images/anak datu.jpg" class="card-img-top" alt="coursesimage">
+          <div class="card-body">
+            <h5 class="card-title">ANAK DATU</h5>
+            <p class="card-text">Tanghalang Pilipinos Anak Datu is an indulgently directed if narratively disjointed foray into the conflict in Muslim Mindanao</p>
+            <a href="#" class="btn btn-primary">Get to know them</a>
+          </div>
+        </div>
+      </div>
+        <div class = "col-3 mb-2">
+            
+        <div class="card" style="width: 18rem;">
+          <img src="images/sadosenang.jpeg" class="card-img-top" alt="coursesimage">
+          <div class="card-body">
+            <h5 class="card-title">SANDOSENANG SAPATOS</h5>
+            <p class="card-text">With a heartrending performance by Felicity Kyle Napuli at the center, ‘Sandosenang Sapatos’ soars through a simple yet emotionally vast musical that finally depicts the difficulties of disability</p>
+            <a href="#" class="btn btn-primary">Get to know them</a>
+          </div>
+        </div>
+      </div>
+        <div class = "col-3 mb-2">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Pingkian.jpeg" class="card-img-top" alt="coursesimage">
+          <div class="card-body">
+            <h5 class="card-title">PINGKIAN</h5>
+            <p class="card-text">D‘Pingkian: Isang Musikal’ brings to centre stage the riveting tale of the ‘Brains of the Revolution’ with poignant reminders of what matters most in life, and setting the famed hero’s sublime writings into contemporary music</p>
+            <a href="#" class="btn btn-primary">Get to know them</a>
+          </div>
+        </div>
+      </div>
+          
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+  <!-- gallery bottomrow -->
+
+
+    <!-- END -->
+
+
+<div class = "container">
+  <div class = "column">
+   
+    <!-- About Us -->
+
+    <h2 id= "Contact" class ="text-center pd-5 mt-5 mb-5" >About Us</h2>
+    
+    <p class="text-center">Tanghalang Pilipino (TP) is the resident drama company of the Cultural Center of the Philippines. Since it was established in 1987, it has successfully presented 114 productions within 15 seasons while generating one of the best attendance records among the CCP’s resident companies.</p>
+    <!-- Contact -->
+    
+<h2 id= "Contact" class ="text-center pd-5 mt-5 mb-5" >Contact</h2>
+
+
+<div class="container right">
+
+  <div class="row">
+
+    <div class="col">
+
+      <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=sta%20ana%20manila%20manila+(manila)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+
+
+
+    </div>
+
+    <div class="col">
+
+      <form>
+
+          <div class="mb-3">
+
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+          </div>
+
+          <div class="mb-3">
+
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+
+            <input type="password" class="form-control" id="exampleInputPassword1">
+
+          </div>
+
+          <div class="mb-3 form-check">
+
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+           </div>
+         </div>
+        </div>
+
+        <footer>
+           <p class = "text-center text-white bg-dark fw-bold mt-5" style= "height:60px"> 
+           &copy;TANGHALANG PILIPINO
+
+          <a href="https://www.facebook.com/tanghalangpilipino/?locale=tl_PH"><i class="fa-brands fa-square-facebook" style="color: #fafafa;"></i></a>
+          <a href="hhttps://www.instagram.com/tanghalang.pilipino/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+           <p></p>
+        </p>
+         </footer>
+        <script src="https://kit.fontawesome.com/090fe43456.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
